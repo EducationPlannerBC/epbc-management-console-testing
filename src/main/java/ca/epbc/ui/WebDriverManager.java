@@ -71,7 +71,7 @@ public final class WebDriverManager {
 			
 			options.addArguments("--start-maximized");
 			options.addArguments("test-type");
-			//options.addArguments("headless");
+			options.addArguments("headless");
 
 			capabilities.setCapability("chrome.binary", file.getAbsolutePath());
 
