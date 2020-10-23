@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b5fe1e-9f97-481f-8ea2-a17cd105716d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditUserPVW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/epbc/ui/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/epbc/ui/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/epbc/ui/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/epbc/ui/CommonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/epbc/ui/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/epbc/ui/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/epbc/ui/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/epbc/ui/WebDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/LoadInstit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/LoadInstit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/CheckUserPVW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/CheckUserPVW.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,25 +27,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="160" />
+          <entry key="JAVA" value="273" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckUserPVW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="884">
+              <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="41" />
               <folding>
                 <element signature="e#282#314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditUserPVW.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+              <folding>
+                <element signature="e#281#313#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="252">
               <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
             </state>
           </provider>
@@ -84,8 +92,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/Config.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoginPVW.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckUserPVW.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditUserPVW.java" />
       </list>
     </option>
   </component>
@@ -178,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603476218479" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603485740120" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -193,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckUserPVW.test">
+  <component name="RunManager" selected="JUnit.EditUserPVW.test">
     <configuration name="CheckUserPVW.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
@@ -210,7 +219,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadInstit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditUserPVW.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -219,7 +228,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.LoadInstit" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.EditUserPVW" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,18 +339,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Login" />
-      <item itemvalue="JUnit.LoadInstit" />
       <item itemvalue="JUnit.LoginPVW.test" />
       <item itemvalue="JUnit.LoginPVW" />
       <item itemvalue="JUnit.CheckUserPVW.test" />
+      <item itemvalue="JUnit.EditUserPVW.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EditUserPVW.test" />
         <item itemvalue="JUnit.CheckUserPVW.test" />
         <item itemvalue="JUnit.LoginPVW.test" />
         <item itemvalue="JUnit.LoginPVW" />
         <item itemvalue="JUnit.Login" />
-        <item itemvalue="JUnit.LoadInstit" />
       </list>
     </recent_temporary>
   </component>
@@ -357,42 +368,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Login - 2020.10.23 at 10h 31m 44s.xml">
-      <configuration name="Login" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 11h 20m 55s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Login - 2020.10.23 at 10h 34m 03s.xml">
-      <configuration name="Login" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 11h 26m 35s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginPVW_test - 2020.10.23 at 10h 35m 42s.xml">
-      <configuration name="LoginPVW.test" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 11h 28m 02s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginPVW - 2020.10.23 at 10h 37m 33s.xml">
-      <configuration name="LoginPVW" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 11h 29m 04s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginPVW_test - 2020.10.23 at 10h 40m 24s.xml">
-      <configuration name="LoginPVW.test" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 11h 29m 51s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginPVW_test - 2020.10.23 at 10h 42m 42s.xml">
-      <configuration name="LoginPVW.test" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 11h 30m 54s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckUserPVW_test - 2020.10.23 at 10h 50m 58s.xml">
-      <configuration name="CheckUserPVW.test" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 11h 32m 08s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckUserPVW_test - 2020.10.23 at 10h 54m 30s.xml">
-      <configuration name="CheckUserPVW.test" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 12h 48m 34s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckUserPVW_test - 2020.10.23 at 10h 58m 49s.xml">
-      <configuration name="CheckUserPVW.test" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 13h 40m 05s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckUserPVW_test - 2020.10.23 at 11h 02m 41s.xml">
-      <configuration name="CheckUserPVW.test" configurationId="JUnit" />
+    <history-entry file="EditUserPVW_test - 2020.10.23 at 13h 40m 14s.xml">
+      <configuration name="EditUserPVW.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,7 +412,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29503545" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42695037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -471,12 +475,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckUserPVW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="884">
+          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="41" />
           <folding>
             <element signature="e#282#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditUserPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding>
+            <element signature="e#281#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
