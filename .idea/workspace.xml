@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d1b5fe1e-9f97-481f-8ea2-a17cd105716d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/epbc/ui/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/epbc/ui/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/epbc/ui/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/epbc/ui/CommonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/epbc/ui/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/epbc/ui/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/epbc/ui/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/epbc/ui/WebDriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/LoadInstit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/LoadInstit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/Login.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,34 +23,42 @@
     <session id="836297833">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="160" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckUserPVW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="108">
+              <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="e#282#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="266">
               <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
             </state>
           </provider>
@@ -51,19 +66,32 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/Config.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoginPVW.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckUserPVW.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="95" />
-    <option name="y" value="116" />
+    <option name="y" value="115" />
     <option name="width" value="1945" />
     <option name="height" value="1105" />
   </component>
@@ -73,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,12 +174,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602612757416" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603476218479" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -165,7 +193,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoadInstit">
+  <component name="RunManager" selected="JUnit.CheckUserPVW.test">
+    <configuration name="CheckUserPVW.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epbc-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.epbc.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.epbc.ui" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.CheckUserPVW" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoadInstit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
@@ -194,7 +238,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPVW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -203,7 +247,21 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.Login" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.LoginPVW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPVW.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epbc-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.epbc.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.epbc.ui" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.LoginPVW" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -270,14 +328,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Login" />
-      <item itemvalue="JUnit.Login.test" />
       <item itemvalue="JUnit.LoadInstit" />
+      <item itemvalue="JUnit.LoginPVW.test" />
+      <item itemvalue="JUnit.LoginPVW" />
+      <item itemvalue="JUnit.CheckUserPVW.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoadInstit" />
-        <item itemvalue="JUnit.Login.test" />
+        <item itemvalue="JUnit.CheckUserPVW.test" />
+        <item itemvalue="JUnit.LoginPVW.test" />
+        <item itemvalue="JUnit.LoginPVW" />
         <item itemvalue="JUnit.Login" />
+        <item itemvalue="JUnit.LoadInstit" />
       </list>
     </recent_temporary>
   </component>
@@ -295,21 +357,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Login_test - 2020.10.05 at 13h 34m 54s.xml">
-      <configuration name="Login.test" configurationId="JUnit" />
+    <history-entry file="Login - 2020.10.23 at 10h 31m 44s.xml">
+      <configuration name="Login" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Login_test - 2020.10.13 at 11h 11m 26s.xml">
-      <configuration name="Login.test" configurationId="JUnit" />
+    <history-entry file="Login - 2020.10.23 at 10h 34m 03s.xml">
+      <configuration name="Login" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadInstit - 2020.10.13 at 11h 12m 30s.xml">
-      <configuration name="LoadInstit" configurationId="JUnit" />
+    <history-entry file="LoginPVW_test - 2020.10.23 at 10h 35m 42s.xml">
+      <configuration name="LoginPVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginPVW - 2020.10.23 at 10h 37m 33s.xml">
+      <configuration name="LoginPVW" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginPVW_test - 2020.10.23 at 10h 40m 24s.xml">
+      <configuration name="LoginPVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginPVW_test - 2020.10.23 at 10h 42m 42s.xml">
+      <configuration name="LoginPVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckUserPVW_test - 2020.10.23 at 10h 50m 58s.xml">
+      <configuration name="CheckUserPVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckUserPVW_test - 2020.10.23 at 10h 54m 30s.xml">
+      <configuration name="CheckUserPVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckUserPVW_test - 2020.10.23 at 10h 58m 49s.xml">
+      <configuration name="CheckUserPVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckUserPVW_test - 2020.10.23 at 11h 02m 41s.xml">
+      <configuration name="CheckUserPVW.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25838926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -318,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29503545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,24 +426,58 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuiteAllTests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuiteDEV.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/CommonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="302">
+          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="266">
           <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoginPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="42" />
+          <folding>
+            <element signature="e#278#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckUserPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#282#314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

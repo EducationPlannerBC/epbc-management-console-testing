@@ -15,7 +15,7 @@ public class Login {
 
 	@After
 	public void tearDown() {
-		driver.close(); 
+		driver.close();
 		driver.quit();
 	}
 
