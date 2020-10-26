@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b5fe1e-9f97-481f-8ea2-a17cd105716d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,13 +23,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="15" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="440" />
+          <entry key="JAVA" value="556" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
@@ -38,30 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckUserPVW.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="42" selection-end-column="103" />
-              <folding>
-                <element signature="e#282#314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditUserPVW.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-              <folding>
-                <element signature="e#281#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckRolesPVW.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,10 +52,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddRolePVW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="19" selection-start-line="19" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="74" selection-end-column="54" />
               <folding>
                 <element signature="e#280#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditRolePVW.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-614">
+              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              <folding>
+                <element signature="e#462#494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckRoles.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckRolesPVW.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddRolePVW.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditRolePVW.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" />
       </list>
     </option>
@@ -213,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603740181376" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603741320704" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -228,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddRolePVW.test">
+  <component name="RunManager" selected="JUnit.EditRolePVW.test">
     <configuration name="AddRolePVW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
@@ -259,20 +247,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckRolesPVW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="epbc-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.epbc.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.CheckRolesPVW" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CheckRolesPVW.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
@@ -289,7 +263,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditUserPVW.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditRolePVW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -298,7 +272,21 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.EditUserPVW" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.EditRolePVW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditRolePVW.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epbc-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.epbc.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.epbc.ui" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.EditRolePVW" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -364,19 +352,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EditUserPVW.test" />
       <item itemvalue="JUnit.CheckRolesPVW.test" />
-      <item itemvalue="JUnit.CheckRolesPVW" />
       <item itemvalue="JUnit.AddRolePVW" />
       <item itemvalue="JUnit.AddRolePVW.test" />
+      <item itemvalue="JUnit.EditRolePVW" />
+      <item itemvalue="JUnit.EditRolePVW.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EditRolePVW.test" />
+        <item itemvalue="JUnit.EditRolePVW" />
         <item itemvalue="JUnit.AddRolePVW.test" />
         <item itemvalue="JUnit.AddRolePVW" />
         <item itemvalue="JUnit.CheckRolesPVW.test" />
-        <item itemvalue="JUnit.CheckRolesPVW" />
-        <item itemvalue="JUnit.EditUserPVW.test" />
       </list>
     </recent_temporary>
   </component>
@@ -402,21 +390,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddRolePVW - 2020.10.26 at 11h 41m 09s.xml">
-      <configuration name="AddRolePVW" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckRolesPVW_test - 2020.10.26 at 11h 47m 38s.xml">
-      <configuration name="CheckRolesPVW.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddRolePVW_test - 2020.10.26 at 11h 48m 50s.xml">
-      <configuration name="AddRolePVW.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddRolePVW_test - 2020.10.26 at 12h 01m 01s.xml">
-      <configuration name="AddRolePVW.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddRolePVW_test - 2020.10.26 at 12h 04m 59s.xml">
-      <configuration name="AddRolePVW.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddRolePVW_test - 2020.10.26 at 12h 09m 20s.xml">
       <configuration name="AddRolePVW.test" configurationId="JUnit" />
     </history-entry>
@@ -431,6 +404,21 @@
     </history-entry>
     <history-entry file="AddRolePVW_test - 2020.10.26 at 12h 22m 31s.xml">
       <configuration name="AddRolePVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddRolePVW_test - 2020.10.26 at 12h 23m 40s.xml">
+      <configuration name="AddRolePVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EditRolePVW - 2020.10.26 at 12h 30m 01s.xml">
+      <configuration name="EditRolePVW" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EditRolePVW_test - 2020.10.26 at 12h 31m 06s.xml">
+      <configuration name="EditRolePVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EditRolePVW_test - 2020.10.26 at 12h 39m 02s.xml">
+      <configuration name="EditRolePVW.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EditRolePVW_test - 2020.10.26 at 12h 40m 41s.xml">
+      <configuration name="EditRolePVW.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -550,10 +538,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddRolePVW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="19" selection-start-line="19" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="74" selection-end-column="54" />
           <folding>
             <element signature="e#280#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditRolePVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-614">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="e#462#494#0" expanded="true" />
           </folding>
         </state>
       </provider>
