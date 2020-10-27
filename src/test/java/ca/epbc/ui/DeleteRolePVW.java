@@ -63,8 +63,5 @@ public class DeleteRolePVW {
                 .until(ExpectedConditions
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'No data')]")));
 
-
-
-
     }
 }
