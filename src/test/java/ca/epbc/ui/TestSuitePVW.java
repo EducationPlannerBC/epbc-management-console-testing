@@ -21,6 +21,7 @@ import org.junit.runners.Suite;
             CheckCategPVW.class,
             LoadInstitPVW.class,
             SelectSkookPVW.class,
+            EditSkookIdentifiersPVW.class,
 
         }
     )
