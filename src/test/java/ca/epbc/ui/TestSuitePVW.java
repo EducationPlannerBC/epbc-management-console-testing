@@ -17,7 +17,8 @@ import org.junit.runners.Suite;
             EditRolePVW.class,
             EditUserPVW.class,
             LoginPVW.class,
-
+            CheckActionsPVW.class,
+            CheckCategPVW.class,
 
         }
     )

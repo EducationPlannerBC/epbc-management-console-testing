@@ -48,6 +48,7 @@ public class LoginPVW {
         element.clear();
         element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-password")));
         element.sendKeys("Temp123!");
+        Thread.sleep(1000);
         //Click Login
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
