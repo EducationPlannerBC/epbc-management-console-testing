@@ -52,6 +52,6 @@ public class CheckCategPVW {
         Thread.sleep(1000);
         String bodyText = driver.findElement(By.tagName("body")).getText();
         Assert.assertTrue("Text not found!", bodyText.contains("Fees"));
-
+        System.out.println("Category filtered & found");
     }
 }

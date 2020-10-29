@@ -8,9 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import junit.framework.Assert;
 
-public class CheckActionsPVW {
+public class LoadInstitPVW {
 
     private WebDriver driver;
 
@@ -34,25 +33,19 @@ public class CheckActionsPVW {
         WebDriverManager.getElements();
         CommonUtils.login();
 
-        //Login
         LoginPVW loginpvw = new LoginPVW();
         loginpvw.test();
 
-        //Click Users
+        //Load Institutions
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Users')]"))).click();
-        //Click Actions
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Institutions List')]"))).click();
+        //Check Instit list on displayed
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Actions')]"))).click();
-        element = driverWait
-                .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart']")));
-        element.sendKeys("ALL");
-        Thread.sleep(1000);
-        String bodyText = driver.findElement(By.tagName("body")).getText();
-        Assert.assertTrue("Text not found!", bodyText.contains("ALL"));
-        System.out.println("Action filtered & found");
+                        .presenceOfElementLocated(By.id("query")));
 
     }
+
+
 }

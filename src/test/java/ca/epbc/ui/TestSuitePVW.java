@@ -19,6 +19,8 @@ import org.junit.runners.Suite;
             LoginPVW.class,
             CheckActionsPVW.class,
             CheckCategPVW.class,
+            LoadInstitPVW.class,
+            SelectSkookPVW.class,
 
         }
     )
