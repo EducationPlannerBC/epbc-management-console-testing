@@ -47,7 +47,7 @@ public class Login {
 		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-password")));
 		element.clear();
 		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-password")));
-		element.sendKeys("Temp123!");
+		element.sendKeys("B@mb00zle");
 		//Click Login 
 		new WebDriverWait(driver, 50)
 		.until(ExpectedConditions

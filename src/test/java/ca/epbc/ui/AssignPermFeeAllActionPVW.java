@@ -62,17 +62,19 @@ public class AssignPermFeeAllActionPVW {
         element = driverWait
                 .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[6]/div/div/div/div/form/div[1]/div/div/div[1]")));
         element.click();
-        element = driverWait
-                .until(ExpectedConditions.presenceOfElementLocated(By.id("react-select-2-option-0")));
-        element.click();
+
+        new WebDriverWait(driver, 50)
+                .until(ExpectedConditions
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Fees')]"))).click();
+
     }
     public void create(WebElement element, WebDriverWait driverWait, WebDriver driver) throws Exception {
         element = driverWait
                 .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[6]/div/div/div/div/form/div[2]/div/div/div[1]")));
         element.click();
-        element = driverWait
-                .until(ExpectedConditions.presenceOfElementLocated(By.id("react-select-3-option-4")));
-        element.click();
+        new WebDriverWait(driver, 50)
+                .until(ExpectedConditions
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'ALL')]"))).click();
         element = driverWait
                 .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='btn btn-primary']")));
         element.click();

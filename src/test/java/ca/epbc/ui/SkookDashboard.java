@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class EditSkookIdentifiersPVW {
+public class SkookDashboard {
 
     private WebDriver driver;
 
@@ -33,17 +33,16 @@ public class EditSkookIdentifiersPVW {
         WebDriverManager.getElements();
         CommonUtils.login();
 
-        SelectSkookPVW edit = new SelectSkookPVW();
-        edit.test();
-
-        //Identif edit
-        element = driverWait
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"react-app\"]/div/div/main/div/section/div[2]/div/ul/li[1]/div[3]/button[1]")));
-        element.click();
-        //Save
+        LoginPVW loginpvw = new LoginPVW();
+        loginpvw.test();
+        //Click Dashboard
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Save')]"))).click();
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Select an institution ...')]"))).click();
+        new WebDriverWait(driver, 50)
+                .until(ExpectedConditions
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Skookumchuck College')]"))).click();
+        System.out.println("Skookumchuck College loaded");
 
     }
 }
