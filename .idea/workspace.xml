@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b5fe1e-9f97-481f-8ea2-a17cd105716d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Claudiu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Claudiu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AssignPermFeeAllActionPVW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AssignPermFeeAllActionPVW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditSkookIdentifiersPVW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditSkookIdentifiersPVW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/AssignPermFeeAllActionPVW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/AssignPermFeeAllActionPVW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/EditSkookIdentifiersPVW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/EditSkookIdentifiersPVW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/SelectSkookPVW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/SelectSkookPVW.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/TestSuitePVW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/TestSuitePVW.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,6 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$USER_HOME$/MCTestSuiteResults" userTempatePath="" />
   <component name="FUSProjectUsageTrigger">
     <session id="836297833">
       <usages-collector id="statistics.lifecycle.project">
@@ -33,13 +28,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="92" />
+          <entry key="JAVA" value="102" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1599" />
+          <entry key="JAVA" value="1807" />
           <entry key="PLAIN_TEXT" value="39" />
         </counts>
       </usages-collector>
@@ -59,29 +54,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/SkookDashboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="193">
+              <caret line="38" column="13" selection-start-line="37" selection-start-column="8" selection-end-line="40" selection-end-column="123" />
               <folding>
                 <element signature="e#284#316#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditSkookIdentifiersPVW.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditUserPVW.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="8" selection-end-line="41" selection-end-column="137" />
             </state>
           </provider>
         </entry>
@@ -98,8 +75,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewQuestion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+              <folding>
+                <element signature="e#284#316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckCategPVW.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="50" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddRolePVW.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -140,12 +147,13 @@
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewAddrSkook.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/SelectSkookPVW.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/SkookDashboard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewQuestion.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="95" />
     <option name="y" value="115" />
     <option name="width" value="1945" />
@@ -234,7 +242,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604529687572" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604600964018" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -249,8 +257,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SkookDashboard">
-    <configuration name="AddNewAddrSkook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestSuitePVW">
+    <configuration name="AddNewQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -259,12 +267,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.AddNewAddrSkook" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.AddNewQuestion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddNewAddrSkook.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddNewQuestion.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -273,7 +281,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.AddNewAddrSkook" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.AddNewQuestion" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -398,19 +406,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestSuitePVW" />
-      <item itemvalue="JUnit.AddNewAddrSkook" />
-      <item itemvalue="JUnit.AddNewAddrSkook.test" />
       <item itemvalue="JUnit.SelectSkookPVW" />
       <item itemvalue="JUnit.SkookDashboard" />
       <item itemvalue="JUnit.SkookDashboard.test" />
+      <item itemvalue="JUnit.AddNewQuestion" />
+      <item itemvalue="JUnit.AddNewQuestion.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddNewQuestion.test" />
+        <item itemvalue="JUnit.AddNewQuestion" />
         <item itemvalue="JUnit.SkookDashboard" />
         <item itemvalue="JUnit.SkookDashboard.test" />
         <item itemvalue="JUnit.SelectSkookPVW" />
-        <item itemvalue="JUnit.AddNewAddrSkook.test" />
-        <item itemvalue="JUnit.AddNewAddrSkook" />
       </list>
     </recent_temporary>
   </component>
@@ -436,36 +444,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 10m 38s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="AddNewQuestion_test - 2020.11.04 at 16h 08m 55s.xml">
+      <configuration name="AddNewQuestion.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 12m 48s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="AddNewQuestion_test - 2020.11.04 at 16h 10m 30s.xml">
+      <configuration name="AddNewQuestion.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 14m 06s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="AddNewQuestion_test - 2020.11.04 at 16h 14m 02s.xml">
+      <configuration name="AddNewQuestion.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 15m 37s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="AddNewQuestion_test - 2020.11.04 at 16h 20m 41s.xml">
+      <configuration name="AddNewQuestion.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard - 2020.11.04 at 14h 22m 50s.xml">
-      <configuration name="SkookDashboard" configurationId="JUnit" />
+    <history-entry file="AddNewQuestion_test - 2020.11.04 at 16h 22m 18s.xml">
+      <configuration name="AddNewQuestion.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 30m 52s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="AddNewQuestion_test - 2020.11.04 at 16h 25m 14s.xml">
+      <configuration name="AddNewQuestion.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 33m 04s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="AddNewQuestion_test - 2020.11.04 at 16h 27m 08s.xml">
+      <configuration name="AddNewQuestion.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 34m 16s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="TestSuitePVW - 2020.11.04 at 16h 41m 27s.xml">
+      <configuration name="TestSuitePVW" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 37m 56s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="TestSuitePVW - 2020.11.05 at 10h 12m 13s.xml">
+      <configuration name="TestSuitePVW" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SkookDashboard_test - 2020.11.04 at 14h 39m 44s.xml">
-      <configuration name="SkookDashboard.test" configurationId="JUnit" />
+    <history-entry file="TestSuitePVW - 2020.11.05 at 10h 27m 17s.xml">
+      <configuration name="TestSuitePVW" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -480,13 +497,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.36879432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.36879432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.42695037" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013423" side_tool="true" weight="0.36879432" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -522,34 +539,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/ChasePaymentMeth.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AssignPermFeeAllActionPVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-926">
-          <caret line="16" selection-start-line="16" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditRolePVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="18" selection-start-line="18" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddRolePVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="8" selection-end-line="70" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -557,41 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewAddrSkook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="48" selection-end-column="24" />
-          <folding>
-            <element signature="e#582#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoginPVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/DeleteRolePVW.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-578">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckActionsPVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="38" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckCategPVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -606,20 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditSkookIdentifiersPVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditUserPVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="8" selection-end-line="41" selection-end-column="137" />
         </state>
       </provider>
     </entry>
@@ -644,6 +588,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewAddrSkook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditSkookIdentifiersPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditUserPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoginPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AssignPermFeeAllActionPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1156">
+          <caret line="16" selection-start-line="16" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckActionsPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="52" column="16" selection-start-line="51" selection-start-column="7" selection-end-line="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckCategPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddRolePVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditRolePVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="74" column="20" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="76" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/SkookDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="38" column="13" selection-start-line="37" selection-start-column="8" selection-end-line="40" selection-end-column="123" />
+          <folding>
+            <element signature="e#284#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -651,10 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/SkookDashboard.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
+          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
           <folding>
             <element signature="e#284#316#0" expanded="true" />
           </folding>
@@ -663,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="170">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>

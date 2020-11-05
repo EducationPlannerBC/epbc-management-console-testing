@@ -22,8 +22,9 @@ import org.junit.runners.Suite;
             LoadInstitPVW.class,
             SelectSkookPVW.class,
             EditSkookIdentifiersPVW.class,
-            AddNewAddrSkook.class,
+           // AddNewAddrSkook.class,
             SkookDashboard.class,
+            AddNewQuestion.class,
 
         }
     )
