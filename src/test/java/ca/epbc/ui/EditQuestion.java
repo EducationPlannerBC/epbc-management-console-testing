@@ -2,6 +2,7 @@ package ca.epbc.ui;
 
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class EditUserPVW {
+public class EditQuestion {
 
     private WebDriver driver;
 
@@ -24,6 +25,11 @@ public class EditUserPVW {
         WebDriverManager.instance = null;
     }
 
+
+    public static void setQkey(String qkey) {
+        AddNewQuestion.qkey = qkey;
+    }
+
     @SuppressWarnings("deprecation")
     @Test
     public void test() throws Exception {
@@ -33,35 +39,29 @@ public class EditUserPVW {
         WebDriverManager.getElements();
         CommonUtils.login();
 
-        CheckUserPVW checkuser = new CheckUserPVW();
-        checkuser.test();
+        AddNewQuestion addq = new AddNewQuestion();
+        addq.test();
 
-        //Click on selected user
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'claudiu.vlasceanu@educationplannerbc.ca')]"))).click();
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'EPBC Super user?')]")));
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Active?')]")));
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Super User Role')]")));
-        System.out.println("User & roles found");
-
-        //click Edit
+        //Click Edit question
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Edit')]"))).click();
+
+        element = driverWait
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[4]/div/div/div/div/form/fieldset/div[3]/div/div/div[1]")));
+        element.click();
+        Thread.sleep(1000);
+        new WebDriverWait(driver, 50)
+                .until(ExpectedConditions
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Institution Custom Question')]"))).click();
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Save')]"))).click();
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'User saved successfully!')]")));
 
+                Thread.sleep(1000);
+        String bodyText = driver.findElement(By.tagName("body")).getText();
+        Assert.assertTrue("Text not found!", bodyText.contains("Question saved successfully!"));
+        System.out.println("Question edited successfully!");
 
 
     }

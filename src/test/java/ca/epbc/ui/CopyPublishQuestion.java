@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class EditUserPVW {
+public class CopyPublishQuestion {
 
     private WebDriver driver;
 
@@ -24,6 +24,11 @@ public class EditUserPVW {
         WebDriverManager.instance = null;
     }
 
+
+    public static void setQkey(String qkey) {
+        AddNewQuestion.qkey = qkey;
+    }
+
     @SuppressWarnings("deprecation")
     @Test
     public void test() throws Exception {
@@ -33,35 +38,19 @@ public class EditUserPVW {
         WebDriverManager.getElements();
         CommonUtils.login();
 
-        CheckUserPVW checkuser = new CheckUserPVW();
-        checkuser.test();
+        PublishQuestion pubQ = new PublishQuestion();
+        pubQ.test();
 
-        //Click on selected user
+        //Click Copy question
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'claudiu.vlasceanu@educationplannerbc.ca')]"))).click();
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'EPBC Super user?')]")));
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Active?')]")));
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Super User Role')]")));
-        System.out.println("User & roles found");
-
-        //click Edit
-        new WebDriverWait(driver, 50)
-                .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Edit')]"))).click();
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Copy')]"))).click();
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Save')]"))).click();
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'User saved successfully!')]")));
-
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Copy of test question')]")));
 
 
     }
