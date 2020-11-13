@@ -25,6 +25,11 @@ import org.junit.runners.Suite;
            // AddNewAddrSkook.class,
             SkookDashboard.class,
             AddNewQuestion.class,
+            PublishQuestion.class,
+            DeleteQuestion.class,
+            CopyPublishQuestion.class,
+            AddFee.class,
+            EditFeeAddStartDate.class,
 
         }
     )
