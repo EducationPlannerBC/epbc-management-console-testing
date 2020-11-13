@@ -30,6 +30,9 @@ import org.junit.runners.Suite;
             CopyPublishQuestion.class,
             AddFee.class,
             EditFeeAddStartDate.class,
+            CopyPublishFee.class,
+            PublishFee.class,
+            ArchiveFee.class,
 
         }
     )

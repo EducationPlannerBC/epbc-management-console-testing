@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/epbc/ui/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/epbc/ui/WebDriverManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/TestSuitePVW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/TestSuitePVW.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,21 +30,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="160" />
+          <entry key="JAVA" value="172" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2306" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="JAVA" value="2447" />
+          <entry key="PLAIN_TEXT" value="42" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -54,83 +53,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="261">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddFee.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckActionsPVW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1111">
-              <caret line="87" column="89" selection-start-line="87" selection-start-column="89" selection-end-line="87" selection-end-column="89" />
-              <folding>
-                <element signature="e#397#429#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="227">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="8" selection-end-line="54" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditFeeAddStartDate.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CopyPublishFee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#395#427#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditRolePVW.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1111">
-              <caret line="73" column="13" selection-start-line="73" selection-start-column="8" selection-end-line="76" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="79" column="11" selection-start-line="79" selection-start-column="8" selection-end-line="86" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/DeleteRolePVW.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="60" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/DeleteQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state>
               <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
               <folding>
-                <element signature="e#374#406#0" expanded="true" />
+                <element signature="e#285#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/SelectSkookPVW.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/PublishFee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="41" column="97" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="97" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/ArchiveFee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding>
+                <element signature="e#282#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,8 +146,12 @@
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/DeleteQuestion.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/CopyPublishQuestion.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddFee.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditFeeAddStartDate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/PublishFee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/CopyPublishFee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/ArchaiveFee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/ArchiveFee.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" />
       </list>
     </option>
@@ -272,7 +245,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605228331684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605299272226" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -288,7 +261,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestSuitePVW">
-    <configuration name="AddFee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArchiveFee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -297,12 +270,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.AddFee" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.ArchiveFee" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyPublishQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CopyPublishFee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -311,12 +284,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.CopyPublishQuestion" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.CopyPublishFee" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteQuestion.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CopyPublishFee.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -325,7 +298,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.DeleteQuestion" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.CopyPublishFee" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -346,7 +319,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditFeeAddStartDate.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PublishFee.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -355,7 +328,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.EditFeeAddStartDate" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.PublishFee" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -436,19 +409,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestSuitePVW" />
-      <item itemvalue="JUnit.DeleteQuestion.test" />
-      <item itemvalue="JUnit.CopyPublishQuestion" />
-      <item itemvalue="JUnit.AddFee" />
-      <item itemvalue="JUnit.EditFeeAddStartDate.test" />
       <item itemvalue="JUnit.EditFeeAddStartDate" />
+      <item itemvalue="JUnit.PublishFee.test" />
+      <item itemvalue="JUnit.CopyPublishFee" />
+      <item itemvalue="JUnit.CopyPublishFee.test" />
+      <item itemvalue="JUnit.ArchiveFee" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArchiveFee" />
+        <item itemvalue="JUnit.CopyPublishFee" />
+        <item itemvalue="JUnit.CopyPublishFee.test" />
+        <item itemvalue="JUnit.PublishFee.test" />
         <item itemvalue="JUnit.EditFeeAddStartDate" />
-        <item itemvalue="JUnit.EditFeeAddStartDate.test" />
-        <item itemvalue="JUnit.AddFee" />
-        <item itemvalue="JUnit.CopyPublishQuestion" />
-        <item itemvalue="JUnit.DeleteQuestion.test" />
       </list>
     </recent_temporary>
   </component>
@@ -474,35 +447,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 16m 07s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="EditFeeAddStartDate - 2020.11.13 at 11h 09m 27s.xml">
+      <configuration name="EditFeeAddStartDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 17m 40s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="PublishFee_test - 2020.11.13 at 11h 17m 18s.xml">
+      <configuration name="PublishFee.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 26m 31s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="CopyPublishFee - 2020.11.13 at 11h 27m 57s.xml">
+      <configuration name="CopyPublishFee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 28m 41s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="CopyPublishFee_test - 2020.11.13 at 11h 30m 11s.xml">
+      <configuration name="CopyPublishFee.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 36m 25s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="CopyPublishFee_test - 2020.11.13 at 11h 34m 28s.xml">
+      <configuration name="CopyPublishFee.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 37m 58s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="CopyPublishFee - 2020.11.13 at 11h 35m 41s.xml">
+      <configuration name="CopyPublishFee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 40m 50s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="CopyPublishFee - 2020.11.13 at 11h 36m 47s.xml">
+      <configuration name="CopyPublishFee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 41m 56s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="ArchaiveFee - 2020.11.13 at 11h 39m 58s.xml">
+      <configuration name="ArchaiveFee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 42m 52s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="TestSuitePVW - 2020.11.13 at 11h 59m 27s.xml">
+      <configuration name="TestSuitePVW" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditFeeAddStartDate_test - 2020.11.12 at 16h 44m 10s.xml">
-      <configuration name="EditFeeAddStartDate.test" configurationId="JUnit" />
+    <history-entry file="TestSuitePVW - 2020.11.13 at 12h 23m 05s.xml">
+      <configuration name="TestSuitePVW" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -604,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddRolePVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="19" selection-start-line="19" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AssignPermFeeAllActionPVW.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -639,33 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckActionsPVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="49" column="81" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/DeleteQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#374#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CopyPublishQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#379#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/SkookDashboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -680,27 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/PublishQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#398#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstitPVW.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="35" column="11" selection-start-line="35" selection-start-column="6" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -746,30 +668,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddFee.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CopyPublishQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1111">
-          <caret line="87" column="89" selection-start-line="87" selection-start-column="89" selection-end-line="87" selection-end-column="89" />
-          <folding>
-            <element signature="e#397#429#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="48" column="41" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="52" selection-end-column="111" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddFee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="1219">
+          <caret line="88" column="38" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/LoadInstit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/PublishQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditFeeAddStartDate.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddRolePVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-708">
+          <caret line="19" selection-start-line="19" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CheckActionsPVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="8" selection-end-line="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/DeleteQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#395#427#0" expanded="true" />
-          </folding>
+          <caret line="49" column="14" selection-start-line="48" selection-start-column="8" selection-end-line="56" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -777,6 +728,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/ArchiveFee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#282#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/PublishFee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/CopyPublishFee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#285#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
         </state>
       </provider>
     </entry>
