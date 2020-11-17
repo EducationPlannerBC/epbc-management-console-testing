@@ -33,6 +33,12 @@ import org.junit.runners.Suite;
             CopyPublishFee.class,
             PublishFee.class,
             ArchiveFee.class,
+            ProgSelection.class,
+            AddCampus.class,
+            EditAndPublishCampus.class,
+            ArchiveCamp.class,
+            EditAddRoleCampus.class,
+            DelCampus.class,
 
         }
     )
