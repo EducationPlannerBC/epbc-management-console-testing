@@ -39,6 +39,8 @@ import org.junit.runners.Suite;
             ArchiveCamp.class,
             EditAddRoleCampus.class,
             DelCampus.class,
+            Programs.class,
+            AddNewPrograms.class,
 
         }
     )

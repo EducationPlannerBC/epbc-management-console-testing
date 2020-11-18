@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d1b5fe1e-9f97-481f-8ea2-a17cd105716d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/epbc/ui/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/epbc/ui/WebDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/CopyPublishFee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/CopyPublishFee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/TestSuitePVW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/epbc/ui/TestSuitePVW.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,13 +32,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="217" />
+          <entry key="JAVA" value="222" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2967" />
+          <entry key="JAVA" value="3128" />
           <entry key="PLAIN_TEXT" value="53" />
         </counts>
       </usages-collector>
@@ -46,7 +46,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -58,47 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/DelCampus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
-              <folding>
-                <element signature="e#280#312#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="83" column="11" selection-start-line="83" selection-start-column="8" selection-end-line="86" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditFeeAddStartDate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-365">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddFee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="57" selection-end-column="102" />
+            <state relative-caret-position="193">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -106,23 +67,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddCampus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-691">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="278">
+              <caret line="75" column="27" selection-start-line="56" selection-start-column="8" selection-end-line="78" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/Programs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
-                <element signature="e#280#312#0" expanded="true" />
+                <element signature="e#458#490#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/ArchiveCamp.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewPrograms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="e#282#314#0" expanded="true" />
+                <element signature="e#285#317#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddFee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -178,10 +157,12 @@
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditAndPublishCampus.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/ArchiveCamp.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditAddRoleCampus.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddCampus.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewQuestion.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/DelCampus.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddCampus.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/Programs.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewPrograms.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/epbc/ui/WebDriverManager.java" />
       </list>
     </option>
@@ -275,7 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605641682617" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605664772208" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -290,8 +271,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuitePVW">
-    <configuration name="ArchiveCamp.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Programs.test">
+    <configuration name="AddCampus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -300,7 +281,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.ArchiveCamp" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.AddCampus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddNewPrograms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epbc-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.epbc.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.epbc.ui" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.AddNewPrograms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddNewPrograms.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="epbc-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.epbc.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.epbc.ui" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.AddNewPrograms" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -321,7 +330,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelCampus.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Programs.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="epbc-testing" />
       <extension name="coverage">
         <pattern>
@@ -330,37 +339,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.DelCampus" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditAddRoleCampus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="epbc-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.epbc.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.EditAddRoleCampus" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditAddRoleCampus.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="epbc-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.epbc.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ca.epbc.ui" />
-      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.EditAddRoleCampus" />
+      <option name="MAIN_CLASS_NAME" value="ca.epbc.ui.Programs" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -441,19 +420,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestSuitePVW" />
-      <item itemvalue="JUnit.ArchiveCamp.test" />
-      <item itemvalue="JUnit.EditAddRoleCampus" />
-      <item itemvalue="JUnit.EditAddRoleCampus.test" />
       <item itemvalue="JUnit.DelCampus" />
-      <item itemvalue="JUnit.DelCampus.test" />
+      <item itemvalue="JUnit.AddCampus" />
+      <item itemvalue="JUnit.Programs.test" />
+      <item itemvalue="JUnit.AddNewPrograms" />
+      <item itemvalue="JUnit.AddNewPrograms.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Programs.test" />
+        <item itemvalue="JUnit.AddNewPrograms" />
+        <item itemvalue="JUnit.AddNewPrograms.test" />
+        <item itemvalue="JUnit.AddCampus" />
         <item itemvalue="JUnit.DelCampus" />
-        <item itemvalue="JUnit.DelCampus.test" />
-        <item itemvalue="JUnit.EditAddRoleCampus.test" />
-        <item itemvalue="JUnit.EditAddRoleCampus" />
-        <item itemvalue="JUnit.ArchiveCamp.test" />
       </list>
     </recent_temporary>
   </component>
@@ -479,35 +458,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EditAndPublishCampus_test - 2020.11.17 at 10h 38m 13s.xml">
-      <configuration name="EditAndPublishCampus.test" configurationId="JUnit" />
+    <history-entry file="TestSuitePVW - 2020.11.17 at 14h 37m 36s.xml">
+      <configuration name="TestSuitePVW" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditAndPublishCampus - 2020.11.17 at 10h 39m 27s.xml">
-      <configuration name="EditAndPublishCampus" configurationId="JUnit" />
+    <history-entry file="AddCampus - 2020.11.17 at 14h 44m 17s.xml">
+      <configuration name="AddCampus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArchiveCamp_test - 2020.11.17 at 10h 44m 32s.xml">
-      <configuration name="ArchiveCamp.test" configurationId="JUnit" />
+    <history-entry file="AddCampus - 2020.11.17 at 14h 45m 38s.xml">
+      <configuration name="AddCampus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditAddRoleCampus - 2020.11.17 at 10h 54m 11s.xml">
-      <configuration name="EditAddRoleCampus" configurationId="JUnit" />
+    <history-entry file="Programs_test - 2020.11.17 at 14h 49m 00s.xml">
+      <configuration name="Programs.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditAddRoleCampus_test - 2020.11.17 at 10h 59m 31s.xml">
-      <configuration name="EditAddRoleCampus.test" configurationId="JUnit" />
+    <history-entry file="AddNewPrograms - 2020.11.17 at 14h 55m 49s.xml">
+      <configuration name="AddNewPrograms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditAddRoleCampus_test - 2020.11.17 at 11h 01m 11s.xml">
-      <configuration name="EditAddRoleCampus.test" configurationId="JUnit" />
+    <history-entry file="AddNewPrograms_test - 2020.11.17 at 14h 58m 17s.xml">
+      <configuration name="AddNewPrograms.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DelCampus - 2020.11.17 at 11h 20m 43s.xml">
-      <configuration name="DelCampus" configurationId="JUnit" />
+    <history-entry file="AddNewPrograms - 2020.11.17 at 15h 01m 17s.xml">
+      <configuration name="AddNewPrograms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DelCampus_test - 2020.11.17 at 11h 25m 12s.xml">
-      <configuration name="DelCampus.test" configurationId="JUnit" />
+    <history-entry file="AddNewPrograms - 2020.11.17 at 15h 02m 41s.xml">
+      <configuration name="AddNewPrograms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DelCampus - 2020.11.17 at 11h 25m 57s.xml">
-      <configuration name="DelCampus" configurationId="JUnit" />
+    <history-entry file="TestSuitePVW - 2020.11.17 at 15h 39m 45s.xml">
+      <configuration name="TestSuitePVW" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DelCampus - 2020.11.17 at 11h 34m 31s.xml">
-      <configuration name="DelCampus" configurationId="JUnit" />
+    <history-entry file="Programs_test - 2020.11.17 at 17h 55m 25s.xml">
+      <configuration name="Programs.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -738,16 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditAddRoleCampus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="e#318#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/ArchiveFee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-187">
@@ -759,13 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddFee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="57" selection-end-column="102" />
         </state>
       </provider>
     </entry>
@@ -782,16 +744,6 @@
           <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="74" selection-end-column="109" />
           <folding>
             <element signature="e#281#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddCampus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-691">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#280#312#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -837,10 +789,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddCampus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="75" column="27" selection-start-line="56" selection-start-column="8" selection-end-line="78" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddFee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/EditAddRoleCampus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/AddNewPrograms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#285#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/TestSuitePVW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="193">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -848,6 +831,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/epbc/ui/Programs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#458#490#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
