@@ -45,6 +45,8 @@ public class EditProgram {
         AddNewPrograms addProg = new AddNewPrograms();
         addProg.test();
 
+        //Click Edit Program
+
 
     }
 }

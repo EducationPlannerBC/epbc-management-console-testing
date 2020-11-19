@@ -3,18 +3,23 @@ package ca.epbc.ui;
 import java.io.File;
 import java.util.List;
 
+import com.sun.javafx.geom.Edge;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+
 
 /**
  * @author cvlasceanu
@@ -91,38 +96,34 @@ public final class WebDriverManager {
 
 		} else if(Config.SELECTED_DRIVER.equals(Constants.IE_DRIVER)) {
 			
-			//File file = new File("lib/IEDriverServer.exe");
-//			System.setProperty("webdriver.ie.driver",
-//					file.getAbsolutePath());
-//			
-//			System.setProperty("webdriver.ie.driver", "C:\\repo\\epbc-ui-test\\TestProject\\lib\\IEDriverServer.exe");
-//			driver = new InternetExplorerDriver();
-			
-//			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-//			InternetExplorerOptions options = new InternetExplorerOptions();
-//			
-//			options.addCommandSwitches("--start-maximized");
-//			options.addCommandSwitches("test-type");
-//			
-//			capabilities.setCapability("internetExplorer.binary", file.getAbsolutePath());
-//
-//			
-         //   driver = new InternetExplorerDriver();
-			
-			 String service = "C:\\repo\\epbc-ui-test\\TestProject\\lib\\IEDriverServer.exe";
-			 System.setProperty("webdriver.ie.driver", service);
-	 
-			 // Create the DesiredCapability object of InternetExplorer
-			 DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-	 
-			 // Settings to Accept the SSL Certificate in the Capability object
-			 capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-	 
-			 InternetExplorerDriver driver = new InternetExplorerDriver(capabilities); 
-			// driver.get("URL for which certificate error is coming");
-			 driver.get("https://tst-apply.educationplannerbc.ca/account/create" + "/account/login");
-			
-			
+
+			// Defining System Property for the IEDriver
+			File file = new File("bin/msedgedriver.exe");
+			System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+			// Instantiate a IEDriver class.
+			WebDriver driver=new InternetExplorerDriver();
+			driver.manage().window().maximize();
+
+		} else if (Config.SELECTED_DRIVER.equals(Constants.EDGE_DRIVER)){
+
+			// Defining System Property for Edge
+			File file = new File("bin/msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", file.getAbsolutePath());
+
+			driver=new EdgeDriver();
+			driver.manage().window().maximize();
+
+			//Initialize the EdgeOptions class
+			EdgeOptions edgeOptions =new EdgeOptions();
+
+			//Use the addArguments method for configuring headless
+			//edgeOptions.addArguments("headless");
+
+			//Pass the edgeOptions object to the Edge Driver
+			//driver= new EdgeDriver(edgeOptions);
+
+
+
 		}
 
 		return driver;

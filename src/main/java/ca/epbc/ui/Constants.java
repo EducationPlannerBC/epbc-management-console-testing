@@ -7,6 +7,7 @@ public class Constants {
 	public static final String GHOST_DRIVER = "GHOST_DRIVER";
 	public static final String FIREFOX_DRIVER = "FIREFOX_DRIVER";
 	public static final String IE_DRIVER = "IE_DRIVER";
+	public static final String EDGE_DRIVER = "EDGE_DRIVER";
 
 	// enviroments
 	public static final String PROD = "PROD";
