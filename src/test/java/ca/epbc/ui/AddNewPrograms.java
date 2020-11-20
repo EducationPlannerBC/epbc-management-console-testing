@@ -75,6 +75,10 @@ public class AddNewPrograms {
                 .until(ExpectedConditions
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Save')]"))).click();
 
+        new WebDriverWait(driver, 50)
+                .until(ExpectedConditions
+                                .presenceOfElementLocated(By.cssSelector("[class='badge badge-info ml-2']")));
+
         Thread.sleep(1000);
         String bodyText = driver.findElement(By.tagName("body")).getText();
         Assert.assertTrue("Text not found!", bodyText.contains("Program created successfully!"));
