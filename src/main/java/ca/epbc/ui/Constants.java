@@ -4,7 +4,6 @@ public class Constants {
 
 	// drivers
 	public static final String CHROME_DRIVER = "CHROME_DRIVER";
-	public static final String GHOST_DRIVER = "GHOST_DRIVER";
 	public static final String FIREFOX_DRIVER = "FIREFOX_DRIVER";
 	public static final String IE_DRIVER = "IE_DRIVER";
 	public static final String EDGE_DRIVER = "EDGE_DRIVER";
@@ -13,7 +12,7 @@ public class Constants {
 	public static final String PROD = "PROD";
 	public static final String DEV = "DEV";
 	public static final String TST = "TST";
-	public static final String STAGE = "STAGE";
+	public static final String STG = "STG";
 	public static final String PVW = "PVW";
 
 	// others

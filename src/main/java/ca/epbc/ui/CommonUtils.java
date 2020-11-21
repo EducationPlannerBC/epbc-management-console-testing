@@ -39,7 +39,7 @@ public class CommonUtils {
 
 //			username = "admin";
 //			password = "welcome";
-		} else if (Config.ENVIROMENT.equals(Constants.STAGE)) {
+		} else if (Config.ENVIROMENT.equals(Constants.STG)) {
 			driver.get("https://stg-mc.educationplannerbc.ca/login"); 
 //			driver.navigate().to("https:/stg-apply.educationplannerbc.ca/account/create" + "/account/login");
 //			driver.navigate().refresh();
