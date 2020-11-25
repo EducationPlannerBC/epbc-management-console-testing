@@ -13,16 +13,16 @@ public class PublishQuestion {
 
     private WebDriver driver;
 
-    @After
-    public void tearDown() {
-        driver.close();
-        driver.quit();
-    }
-
-    @AfterClass
-    public static void afterClass() {
-        WebDriverManager.instance = null;
-    }
+//    @After
+//    public void tearDown() {
+//        driver.close();
+//        driver.quit();
+//    }
+//
+//    @AfterClass
+//    public static void afterClass() {
+//        WebDriverManager.instance = null;
+//    }
 
 
     public static void setQkey(String qkey) {
@@ -47,7 +47,7 @@ public class PublishQuestion {
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Edit')]"))).click();
 
         element = driverWait
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[4]/div/div/div/div/form/fieldset/div[3]/div/div/div[1]")));
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[4]/div/div/div/div/form/fieldset/div[4]/div/div/div[1]/div[1]")));
         element.click();
         Thread.sleep(1000);
         new WebDriverWait(driver, 50)

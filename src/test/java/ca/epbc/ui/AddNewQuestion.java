@@ -70,8 +70,12 @@ public class AddNewQuestion {
         element = driverWait
                 .until(ExpectedConditions.presenceOfElementLocated(By.id("questionKey")));
         element.sendKeys(qkey);
+        //help text
         element = driverWait
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[4]/div/div/div/div/form/fieldset/div[3]/div/div/div[1]")));
+                .until(ExpectedConditions.presenceOfElementLocated(By.id("help")));
+        element.sendKeys("Computers must store all data in a binary format - that is, with zeros and ones. So each letter that you're reading right now is stored on my server as a series of zeros and ones. That needs to go from my server to your browser, and your browser needs to understand what those zeros and ones are referring to.In the early days of computing, everyone had their own ideas about which binary codes should refer to which textual characters - there was no universal standard saying 01100001=a, 01100010=b, etc., but that changed in the 1980s with the formation of Unicode. Unicode is an international standards body that works towards a universal specification for text characters. Before Unicode was formed, everyone had their own ways of storing and rendering text, and so whenever two programs from different programmers or organisations had to \"talk\" to one another, they'd have to build a \"translator\" so that they could understand which codes referred to which textual characters.");
+        element = driverWait
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[4]/div/div/div/div/form/fieldset/div[4]/div/div/div[1]")));
         element.click();
         Thread.sleep(1000);
         new WebDriverWait(driver, 50)
