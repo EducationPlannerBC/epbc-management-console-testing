@@ -41,6 +41,12 @@ import org.junit.runners.Suite;
             DelCampus.class,
             Programs.class,
             AddNewPrograms.class,
+            ArchiveProgram.class,
+            CopyProgram.class,
+            EditAndPublishProgram.class,
+            CopyProgram.class,
+            DeleteProgram.class,
+
 
         }
     )

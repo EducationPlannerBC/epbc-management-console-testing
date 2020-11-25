@@ -53,7 +53,7 @@ public class AddNewPrograms {
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Add New Program')]"))).click();
-        //Campus name
+        //Program name
         proggr = "P" + Calendar.getInstance().getTimeInMillis();
         System.out.println("New created campus is: " + proggr);
         setProggr(proggr);
