@@ -46,6 +46,14 @@ import org.junit.runners.Suite;
             EditAndPublishProgram.class,
             CopyProgram.class,
             DeleteProgram.class,
+            AddNewTerm.class,
+            DeleteTerm.class,
+            CopyTerm.class,
+            EditAndPublishTerm.class,
+            ArchiveTerm.class,
+
+
+
 
 
         }
