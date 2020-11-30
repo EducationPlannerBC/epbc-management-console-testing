@@ -51,6 +51,12 @@ import org.junit.runners.Suite;
             CopyTerm.class,
             EditAndPublishTerm.class,
             ArchiveTerm.class,
+            AddAdmissionCateg.class,
+            EditAndPublishAdmCateg.class,
+            EditPublishedAdmCateg.class,
+            CopyAdmCateg.class,
+            DeleteAdmCateg.class,
+            ArchiveAdmCateg.class,
 
 
 
