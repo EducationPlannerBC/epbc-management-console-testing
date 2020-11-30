@@ -53,7 +53,7 @@ public class EditPublishedAdmCateg {
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Save')]"))).click();
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'History')]"))).click();
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'History')]")));
         System.out.println("History of Updated added");
 
 
