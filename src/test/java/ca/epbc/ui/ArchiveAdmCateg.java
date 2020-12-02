@@ -14,16 +14,16 @@ public class ArchiveAdmCateg {
 
     private WebDriver driver;
 
-    @After
-    public void tearDown() {
-        driver.close();
-        driver.quit();
-    }
-
-    @AfterClass
-    public static void afterClass() {
-        WebDriverManager.instance = null;
-    }
+//    @After
+//    public void tearDown() {
+//        driver.close();
+//        driver.quit();
+//    }
+//
+//    @AfterClass
+//    public static void afterClass() {
+//        WebDriverManager.instance = null;
+//    }
 
     @SuppressWarnings("deprecation")
     @Test
@@ -46,7 +46,7 @@ public class ArchiveAdmCateg {
                         .presenceOfElementLocated(By.cssSelector("[class='btn btn-danger mr-2']"))).click();
 
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         String bodyText = driver.findElement(By.tagName("body")).getText();
         Assert.assertTrue("Text not found!", bodyText.contains("Admission category archived successfully!"));
         System.out.println("Adm Categ archived successfully!");

@@ -65,7 +65,7 @@ public class AddFee {
                 .until(ExpectedConditions.presenceOfElementLocated(By.id("description")));
         element.sendKeys(fee);
         element = driverWait
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[5]/div/div/div/div/form/fieldset/div[2]/div/div")));
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[5]/div/div/div/div/form/fieldset/div[2]/div/div[2]/div/div[1]")));
         element.click();
         Thread.sleep(1000);
         new WebDriverWait(driver, 50)

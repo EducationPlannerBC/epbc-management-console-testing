@@ -76,10 +76,9 @@ public class AddAdmissionCateg {
         new WebDriverWait(driver, 50)
                 .until(ExpectedConditions
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Save')]"))).click();
-
-        Thread.sleep(1000);
-        String bodyText = driver.findElement(By.tagName("body")).getText();
-        Assert.assertTrue("Text not found!", bodyText.contains("Admission category created successfully!"));
+        new WebDriverWait(driver, 50)
+                .until(ExpectedConditions
+                        .presenceOfElementLocated(By.xpath("//*[contains(text(), 'Draft')]")));
         System.out.println("New campus saved successfully");
 
     }
