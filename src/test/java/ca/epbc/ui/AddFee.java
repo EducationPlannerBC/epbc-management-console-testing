@@ -87,6 +87,7 @@ public class AddFee {
                 .until(ExpectedConditions
                         .presenceOfElementLocated(By.xpath("//*[contains(text(), '" + fee + "')]")));
         System.out.println("Fee saved succefully");
+        
 
 
     }
