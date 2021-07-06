@@ -36,22 +36,22 @@ public class Login {
 		// Login MC
 		new WebDriverWait(driver, 50)
 		.until(ExpectedConditions
-				.presenceOfElementLocated(By.xpath("//*[contains(text(), 'Login')]")))
+				.presenceOfElementLocated(By.xpath("//*[contains(text(), 'Sign In')]")))
 		.click();
 		Thread.sleep(1000);
-		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-username")));
+		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("signin-username")));
 		element.clear();
-		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-username")));
+		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("signin-username")));
 		element.sendKeys("claudiu.vlasceanu@educationplannerbc.ca");
 		Thread.sleep(1000);
-		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-password")));
+		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("signin-password")));
 		element.clear();
-		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-password")));
+		element = driverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("signin-password")));
 		element.sendKeys("B@mb00zle");
 		//Click Login 
 		new WebDriverWait(driver, 50)
 		.until(ExpectedConditions
-				.presenceOfElementLocated(By.xpath("//*[contains(text(), 'Login')]")))
+				.presenceOfElementLocated(By.xpath("//*[contains(text(), 'Sign In')]")))
 		.click();
 		new WebDriverWait(driver, 50)
 		.until(ExpectedConditions
